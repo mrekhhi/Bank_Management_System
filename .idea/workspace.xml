@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56840ff8-ddca-407b-a6ae-392f7ebcc8cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bank_Management_System.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon/atm2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon/backbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon/bank.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon/card.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Icon/provider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
-    </list>
+    <list default="true" id="56840ff8-ddca-407b-a6ae-392f7ebcc8cd" name="Changes" comment="new Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +65,14 @@
       <option name="presentableId" value="Default" />
       <updated>1703013679961</updated>
     </task>
+    <task id="LOCAL-00001" summary="new Project">
+      <created>1703019207525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703019207525</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new Project" />
   </component>
 </project>
