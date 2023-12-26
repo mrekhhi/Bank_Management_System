@@ -29,12 +29,12 @@ public class Login extends JFrame implements ActionListener {
         add(card);
 
 
-        lable1 = new JLabel("WELCOME TO ATM");
+        lable1 = new JLabel("WELCOME TO BETA-HOUSE");
         lable1.setForeground(Color.white);
-        lable1.setFont(new Font("AvantGarde", Font.BOLD, 38));
+        lable1.setFont(new Font("AvantGarde", Font.BOLD, 30));
         lable1.setBounds(230, 125, 450, 40);
         add(lable1);
-        label2 = new JLabel("Card NO. : ");
+        label2 = new JLabel("NAME. : ");
         label2.setForeground(Color.white);
         label2.setFont(new Font("Ralway", Font.BOLD, 28));
         label2.setBounds(150, 190, 375, 30);
@@ -47,7 +47,7 @@ public class Login extends JFrame implements ActionListener {
         add(textField2);
 
 
-        label3 = new JLabel("PIN NO.: ");
+        label3 = new JLabel("S CODE.: ");
         label3.setFont(new Font("Ralway", Font.BOLD, 28));
         label3.setForeground(Color.white);
         label3.setBounds(150, 250, 375, 30);
@@ -101,11 +101,13 @@ public class Login extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         try {
             if (e.getSource() == button1) {
+
             } else if (e.getSource() == button2) {
                 textField2.setText("");
                 passwordField3.setText("");
 
             } else if (e.getSource() == button3) {
+
             }
 
 
