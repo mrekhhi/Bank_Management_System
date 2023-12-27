@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56840ff8-ddca-407b-a6ae-392f7ebcc8cd" name="Changes" comment="new Project">
-      <change afterPath="$PROJECT_DIR$/src/bank/management/system/Signup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql-connector-java-8.0.28.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank_Management_System.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Bank_Management_System.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bank/management/system/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bank/management/system/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,20 +27,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Zm3xmUAA3FEM4IutObZKjPlRFG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/vaekhand/OneDrive - Capgemini/Documents/java Project/Bank_Management_System/jcalendar-tz-1.3.3-4.jar",
+    "last_opened_file_path": "C:/Users/vaekhand/OneDrive - Capgemini/Documents/java Project/Bank_Management_System/mysql-connector-java-8.0.28.jar",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager" selected="Application.Signup">
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703019271113</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new Project">
+      <created>1703575477338</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703575477338</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +124,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="new Project" />
     <option name="LAST_COMMIT_MESSAGE" value="new Project" />
   </component>
