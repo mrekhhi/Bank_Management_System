@@ -9,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Random;
 import java.util.Set;
+import java.util.zip.Adler32;
 
 public class Signup extends JFrame implements ActionListener {
     JRadioButton R1, R2, R3,R4;
@@ -144,7 +145,7 @@ public class Signup extends JFrame implements ActionListener {
         textname5.setFont(new Font("Railway",Font.BOLD,14));
         textname5.setBounds(300,540,400,30);
         add(textname5);
-//
+
         JLabel Pincode = new JLabel("Pin code");
         Pincode.setFont(new Font("Railway",Font.BOLD,20));
         Pincode.setBounds(100,590,200,30);
@@ -165,13 +166,14 @@ public class Signup extends JFrame implements ActionListener {
         textname7.setBounds(300,640,400,30);
         add(textname7);
 
-next = new JButton("Next");
-next.setFont(new Font("Railway", Font.BOLD,14));
-next.setBackground(Color.BLACK);
-next.setForeground(Color.white);
-next.setBounds(620,710,80,30);
-next.addActionListener(this);
-add(next);
+        next = new JButton("Next");
+        next.setFont(new Font("Railway", Font.BOLD,14));
+        next.setBackground(Color.BLACK);
+        next.setForeground(Color.white);
+        next.setBounds(620,710,80,30);
+        next.addActionListener(this);
+        add(next);
+
         getContentPane().setBackground(new Color(222,255,228));
         setLayout(null);
         setSize(850,800);
@@ -183,11 +185,45 @@ add(next);
 
     @Override
     public void actionPerformed(ActionEvent e) {
+        String formno = first;
+        String name = textname.getText();
+        String fname = textname2.getText();
+        String dob = ((JTextField)dateChooser.getDateEditor().getUiComponent()).getText();
+        String gender = null;
+        if (R1.isSelected()){
+            gender = "Male";
+        } else if (R2.isSelected()) {
+            gender = "Female";
+        }
+        String email = textname3.getText();
+        String marital = null;
+        if (R3.isSelected()){
+            marital = "Married";
 
+        } else if (R4.isSelected()) {
+            marital = "Unmarried";
+        }
+        String Address = textname4.getText();
+        String city  = textname5.getText();
+        String pincode= textname6.getText();
+        String state = textname7.getText();
+
+        try {
+            if (textname.getText().equals(" ")){
+                JOptionPane.showMessageDialog(null,"Fill all the fields");
+            }else {
+                Con con1= new Con();
+                String  q = "insert into Signup values('"+formno+"','" +fname+"','"+dob+"','"+email+"','"+Address+"')";
+                con1.statement.executeUpdate(q);
+                new Signup2();
+                setVisible(false);
+            }
+        }catch (Exception E){
+            E.printStackTrace();
+        }
     }
 
     public static void main(String[] args) {
-        new Signup();
 
     }
 }
